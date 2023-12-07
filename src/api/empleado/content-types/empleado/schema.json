@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empleados",
+  "info": {
+    "singularName": "empleado",
+    "pluralName": "empleados",
+    "displayName": "Empleado"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Cargo": {
+      "type": "string"
+    },
+    "Foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
